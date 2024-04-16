@@ -1,0 +1,15 @@
+{
+    "idf.port": "/dev/ttyUSB0",
+    "idf.adapterTargetName": "esp32s3",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-bridge.cfg"
+    ],
+    "idf.flashType": "UART",
+    "files.associations": {
+        "esp_websocket_client.h": "c",
+        "string.h": "c",
+        "socket.h": "c",
+        "mcnl_packet.h": "c",
+        "time.h": "c"
+    }
+}

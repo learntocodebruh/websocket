@@ -1,0 +1,21 @@
+dependencies:
+  espressif/esp_websocket_client:
+    component_hash: ae561d39222a399ddda5e470913c3d54a3c0f53dce15b8d21a3aaa4226dd74b1
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.2.3
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.1
+  protocol_examples_common:
+    component_hash: null
+    source:
+      path: /home/mcnl/esp/v5.2.1/esp-idf/examples/common_components/protocol_examples_common
+      type: local
+    version: '*'
+manifest_hash: 9d15888b3c7bc22de1ae17b5127dea21874c850808d03cb2fbab73ab1b003e52
+target: esp32s3
+version: 1.0.0
